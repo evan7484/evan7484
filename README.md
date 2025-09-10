@@ -1,4 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=Junseo's%20world&fontSize=90)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=evan7484&utm_content=line">
   <img
