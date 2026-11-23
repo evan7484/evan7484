@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" role="img" aria-label="루게더: 루틴을 지키면 방이 자라는 소셜 할 일 관리 앱">
+  <style>.f{font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic","Segoe UI",sans-serif}</style>
+  <defs><clipPath id="r"><rect width="400" height="270" rx="22"/></clipPath></defs>
+  <g clip-path="url(#r)">
+    <rect width="400" height="270" fill="#FFF1DC"/>
+    <rect y="104" width="400" height="56" fill="#F3B56B"/>
+    <rect y="160" width="400" height="110" fill="#FFF8EC"/>
+    <!-- window -->
+    <rect x="34" y="26" width="74" height="58" rx="10" fill="#BFE3F5"/>
+    <rect x="69" y="26" width="4" height="58" fill="#FFF1DC"/><rect x="34" y="53" width="74" height="4" fill="#FFF1DC"/>
+    <!-- shelf with plant -->
+    <rect x="262" y="52" width="98" height="8" rx="4" fill="#C98A45"/>
+    <rect x="278" y="30" width="14" height="22" rx="3" fill="#FF7A1A"/><rect x="296" y="36" width="12" height="16" rx="3" fill="#3A2A1A"/>
+    <circle cx="336" cy="38" r="12" fill="#3DB57E"/><rect x="330" y="44" width="12" height="8" rx="2" fill="#C98A45"/>
+    <!-- sofa, selected -->
+    <rect x="126" y="70" width="118" height="52" rx="16" fill="#FF9A4D"/>
+    <rect x="126" y="70" width="118" height="20" rx="10" fill="#FF7A1A"/>
+    <rect x="116" y="60" width="138" height="72" fill="none" stroke="#3A2A1A" stroke-width="2" stroke-dasharray="5 5"/>
+    <g fill="#FFFFFF" stroke="#3A2A1A" stroke-width="1.8"><rect x="111" y="55" width="10" height="10"/><rect x="249" y="55" width="10" height="10"/><rect x="111" y="127" width="10" height="10"/><rect x="249" y="127" width="10" height="10"/></g>
+    <!-- table -->
+    <ellipse cx="318" cy="124" rx="34" ry="12" fill="#FFF8EC"/><rect x="314" y="124" width="8" height="20" fill="#C98A45"/>
+    <text class="f" x="28" y="206" font-size="27" font-weight="800" fill="#3A2A1A">루게더</text>
+    <text class="f" x="28" y="233" font-size="15" font-weight="500" fill="#6B5846">루틴을 지키면 방이 자라는 할 일 관리 앱</text>
+    <text class="f" x="28" y="254" font-size="12.5" font-weight="600" fill="#B0763A">React Native · Expo · TypeScript</text>
+  </g>
+</svg>

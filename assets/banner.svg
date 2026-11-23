@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="최준서, 프론트엔드 개발자. 화면의 작은 불편도 그냥 넘기지 않습니다.">
+  <style>
+    .f{font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic","Segoe UI",sans-serif}
+    @keyframes snap{0%,22%{transform:translate(-36px,16px)}36%,100%{transform:translate(0,0)}}
+    @keyframes guide{0%,33%{opacity:0}40%,100%{opacity:1}}
+    .sel{animation:snap 2.8s cubic-bezier(.2,.9,.2,1) both}
+    .guide{animation:guide 2.8s linear both}
+    @media (prefers-reduced-motion:reduce){.sel,.guide{animation:none}}
+  </style>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#FF8F3D"/></pattern>
+    <clipPath id="r"><rect width="1200" height="320" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="320" fill="#FF7A1A"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+
+    <!-- room, seen from above -->
+    <rect x="620" y="64" width="470" height="160" rx="30" fill="#FF9A4D"/>
+    <rect x="662" y="88" width="236" height="76" rx="24" fill="#0E1424"/>
+    <rect x="662" y="88" width="236" height="24" rx="12" fill="#27314F"/>
+    <rect x="680" y="118" width="96" height="36" rx="12" fill="#1B2440"/>
+    <rect x="784" y="118" width="96" height="36" rx="12" fill="#1B2440"/>
+    <circle cx="780" cy="196" r="20" fill="#FFF3E6"/>
+    <circle cx="787" cy="190" r="6" fill="#FF7A1A"/>
+    <circle cx="988" cy="112" r="30" fill="#FFF3E6"/>
+    <circle cx="988" cy="112" r="17" fill="#2E9E6B"/>
+    <circle cx="975" cy="102" r="9" fill="#3DB57E"/>
+    <circle cx="1000" cy="122" r="8" fill="#3DB57E"/>
+    <rect x="938" y="164" width="112" height="44" rx="16" fill="#FFD9B8"/>
+    <rect x="950" y="174" width="88" height="6" rx="3" fill="#FFB877"/>
+    <rect x="950" y="188" width="60" height="6" rx="3" fill="#FFB877"/>
+
+    <!-- smart guides: the selection snaps to the rug's top and bottom edges -->
+    <g class="guide" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="7 7" opacity="1">
+      <line x1="0" y1="64" x2="1200" y2="64"/>
+      <line x1="0" y1="224" x2="1200" y2="224"/>
+    </g>
+
+    <g class="sel">
+      <text class="f" x="100" y="150" font-size="84" font-weight="800" fill="#0E1424" textLength="250" lengthAdjust="spacingAndGlyphs">최준서</text>
+      <text class="f" x="102" y="196" font-size="28" font-weight="600" fill="#0E1424" textLength="216" lengthAdjust="spacingAndGlyphs">프론트엔드 개발자</text>
+      <rect x="72" y="64" width="320" height="160" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+      <g fill="#FFFFFF" stroke="#0E1424" stroke-width="2">
+        <rect x="66" y="58" width="12" height="12"/><rect x="226" y="58" width="12" height="12"/><rect x="386" y="58" width="12" height="12"/>
+        <rect x="66" y="138" width="12" height="12"/><rect x="386" y="138" width="12" height="12"/>
+        <rect x="66" y="218" width="12" height="12"/><rect x="226" y="218" width="12" height="12"/><rect x="386" y="218" width="12" height="12"/>
+      </g>
+      <rect x="190" y="238" width="84" height="26" rx="7" fill="#0E1424"/>
+      <text class="f" x="232" y="256" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">320 × 160</text>
+      <path d="M0 0v24l6.5-6 4.2 10 4.4-1.9-4.2-9.8h8.6z" transform="translate(398 230)" fill="#FFFFFF" stroke="#0E1424" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+
+    <text class="f" x="72" y="298" font-size="19" font-weight="600" fill="#0E1424">화면의 작은 불편도 그냥 넘기지 않습니다</text>
+  </g>
+</svg>
